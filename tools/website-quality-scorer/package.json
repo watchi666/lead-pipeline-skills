@@ -1,0 +1,14 @@
+{
+  "name": "website-quality-scorer",
+  "version": "0.3.1",
+  "description": "Website QA and scoring CLI for small-business websites (Chrome-based, no npm dependencies)",
+  "type": "module",
+  "bin": {
+    "website-quality-scorer": "./bin/website-quality-scorer.mjs"
+  },
+  "scripts": {
+    "audit": "node ./bin/website-quality-scorer.mjs audit",
+    "compare": "node ./bin/website-quality-scorer.mjs compare"
+  },
+  "license": "SEE LICENSE IN ../../LICENSE.md"
+}

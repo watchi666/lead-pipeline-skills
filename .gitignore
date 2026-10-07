@@ -1,0 +1,5 @@
+node_modules/
+reports/
+website-quality-reports/
+*.log
+.DS_Store
